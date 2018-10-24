@@ -1,0 +1,26 @@
+<html>
+<script src="./app.js"></script>
+<script src="http://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js" integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs"
+  crossorigin="anonymous"></script>
+<style>
+  .test {
+    width: 140mm;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #ccc;
+    font-size: 18px;
+  }
+</style>
+
+<body onload="genData()">
+  <div id="button">
+    <button type="button" class="btn btn-primary ml-5 mt-5" onclick="genData();">Printt</button>
+  </div>
+  <div id="stats">
+  </div>
+  <div id="capture" class="test">
+  </div>
+</body>
+
+</html>
